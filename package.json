@@ -1,0 +1,22 @@
+{
+    "name": "testsecure",
+    "version": "1.0.13",
+    "description": "Test secure app (never deployed). Used to test Vee3 Local",
+    "main": "index.js",
+    "app": {
+        "manifest": {
+            "// service_worker": "network_or_cache",
+            "// ": "probably don't want this to be cached and only online i.e. not pinnable"
+        },
+        "frameworks": [
+            "knockout",
+            "tailwindcss",
+            "testing"
+        ]
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commit": "git add . && git commit -m 'Checking in latest' && git push",
+        "tag": "npm --no-git-tag-version version patch && npm run commit"
+    }
+}
