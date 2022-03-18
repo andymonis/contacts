@@ -224,7 +224,7 @@ html {
     margin-right: calc(var(--vee3-card-margin-horizontal) + var(--vee3-safe-area-right)); */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .card .card-header {

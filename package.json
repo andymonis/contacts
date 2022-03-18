@@ -10,8 +10,7 @@
         },
         "frameworks": [
             "knockout",
-            "tailwindcss",
-            "testing"
+            "tailwindcss"
         ]
     },
     "scripts": {
